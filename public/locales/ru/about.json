@@ -2,22 +2,13 @@
   "description": "Чат GPT",
   "sourceCode": "",
   "initiative": {
-    "description": "",
+    "description": "Чат GPT - это онлайн сервис ИИ, генерирующий ответы - на основе истории данных интернета. Учитесь - пока не поздно!)",
     "link": ""
-  },
-  "support": {
-    "title": "",
-    "paragraph1": "",
-    "paragraph2": "",
-    "paragraph3": "",
-    "paragraph4": "",
-    "alipay": "",
-    "wechatPay": ""
   },
   "discordServer": {
     "title": "",
-    "paragraph1": "",
-    "paragraph2": ""
+    "paragraph1": "С каждым днём - вы будете лучше работать с ИИ (искусственный интеллект).",
+    "paragraph2": "А также, получите навыки востребованные в современном - быстро меняющимся мире..."
   },
   "privacyStatement": {
     "title": "",
