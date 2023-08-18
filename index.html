@@ -8,19 +8,19 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/dist/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="/dist/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/dist/favicon-16x16.png" />
-    <meta property="og:image" content="/dist/social.png" />
-    <meta name="twitter:image" content="/dist/social.png" />
+    <meta property="og:image" content="/dist/favicon-516x516.png" />
+    <meta name="twitter:image" content="/dist/favicon-516x516.png" />
     <meta
       name="description"
-      content="Чат GPT X на русском - это онлайн сервис ИИ, генерирующий ответы - на основе истории данных интернета. Учитесь - пока не поздно!) "
+      content="Бесплатно, безлимитный и без регистрации... Голосовой чат GPT 2 RU: - Спросите, что хотите))"
     />
     <meta
       name="twitter:description"
-      content="Чат GPT X на русском - это онлайн сервис ИИ, генерирующий ответы - на основе истории данных интернета. Учитесь - пока не поздно!) "
+      content="Бесплатно, безлимитный и без регистрации... Голосовой чат GPT 2 RU: - Спросите, что хотите))"
     />
-    <meta name="twitter:title" content="ChatGPT" />
+    <meta name="twitter:title" content="Голосовой чат GPT 2 RU" />
     <meta name="twitter:card" content="summary_large_image" />
-    <title>Чат GPT на русском</title>
+    <title>Голосовой чат GPT 2 RU</title>
     <meta name="theme-color" content="#edeff2">
     <meta name="apple-mobile-web-app-status-bar-style" content="#edeff2">
     <meta name="msapplication-TileColor" content="#edeff2">
@@ -286,7 +286,7 @@
     </div>
     <div id="loadMask">
         <div>
-            <div>ChatGPT</div>
+            <div>GPT 2 RU</div>
             <svg>
                 <use xlink:href="#loadingIcon" />
             </svg>
@@ -357,7 +357,7 @@
                     <div class="button minimize"></div>
                     <div class="button maximize"></div>
                 </div>
-                <div class="title"><span>ChatGPT</span></div>
+                <div class="title"><span>GPT 2 RU</span></div>
                 <div class="settings">
                     <button class="setBtn" id="toggleFull" data-i18n-window title>
                         <svg width="30" height="30">
@@ -1319,7 +1319,7 @@
                 "cat": "Кошка-девочка",
                 "emoji": "Эмодзи",
                 "withImg": "С изображением",
-                "defaultText": "",
+                "defaultText": "Отвечай кратко и вставляй эмодзи, если это уместно",
                 "assistantText": "Вы полезный ассистент, отвечайте максимально кратко.",
                 "catText": "Вы милая кошка-девочка, каждое предложение должно заканчиваться словом 'мяу'",
                 "emojiText": "Ваша личность очень живая, в каждом предложении должен быть хотя бы один эмодзи",
@@ -1372,7 +1372,7 @@
                 "second": "с",
                 "keepListenMic": "Слушать",
                 "send": "➤",
-                "askTip": "Говорите, что хотите)",
+                "askTip": "Спросите, что хотите)",
                 "clearChat": "Очистить чат",
                 "general": "Общие",
                 "hotkey": "Клава",
@@ -1413,7 +1413,7 @@
                 "errorAiKeyTip": "Много запросов... Попробуйте ещё!",
                 "copyCode": "Копировать код",
                 "copySuccess": "Успешно",
-                "update": "↻",
+                "update": "Обновить",
                 "cancel": "Отмена",
                 "delMsgTip": "Удалить это сообщение?",
                 "edit": "Редактировать",
@@ -3852,7 +3852,7 @@
                 })
             }
             let localAvatar = localStorage.getItem("userAvatar");
-            userAvatar = setAvatarPre.src = setAvatar.value = localAvatar || setAvatar.getAttribute("value") || "https://i.ibb.co/4th19MN/i.webp";
+            userAvatar = setAvatarPre.src = setAvatar.value = localAvatar || setAvatar.getAttribute("value") || "https://i.imgur.com/VGkeMXN.png";
             setAvatar.onchange = () => {
                 userAvatar = setAvatar.value;
                 localStorage.setItem("userAvatar", userAvatar);
