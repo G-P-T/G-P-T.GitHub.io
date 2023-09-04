@@ -1,2 +1,2 @@
 envAPIEndpoint="https://api.openai.com/"
-envAPIKey="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"
+envAPIKey="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"
