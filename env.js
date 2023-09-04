@@ -1,2 +1,2 @@
-envAPIEndpoint="https://api.openai.com/"
-envAPIKey="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"
+envAPIEndpoint="https://ai.fakeopen.com/v1/chat/"
+envAPIKey="pk-this-is-a-real-free-pool-token-for-everyone"
